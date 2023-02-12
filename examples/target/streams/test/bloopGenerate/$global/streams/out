@@ -1,4 +1,0 @@
-[debug] [examples-test] Classpath dependencies List(core, streaming, mllib, hive, graphx, streaming-kafka-0-10, sql-kafka-0-10)
-[debug] [examples-test] Dependencies from configurations List(examples)
-[debug] Bloop wrote the configuration of project 'examples-test' to '/home/meng/workspace/spark/.bloop/examples-test.json'
-[success] Generated .bloop/examples-test.json

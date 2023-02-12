@@ -1,9 +1,0 @@
-package org.apache.spark.storage;
-/** Creates a mock {@link BlockTransferService} that returns data from the given map. */
-public  class ShuffleBlockFetcherIteratorSuite extends org.apache.spark.SparkFunSuite implements org.scalatest.PrivateMethodTester {
-  public  org.scalatest.PrivateMethodTester.PrivateMethod$ PrivateMethod ()  { throw new RuntimeException(); }
-  // not preceding
-  public   ShuffleBlockFetcherIteratorSuite ()  { throw new RuntimeException(); }
-  public  org.apache.spark.network.buffer.ManagedBuffer createMockManagedBuffer (int size)  { throw new RuntimeException(); }
-  public  void verifyBufferRelease (org.apache.spark.network.buffer.ManagedBuffer buffer, java.io.InputStream inputStream)  { throw new RuntimeException(); }
-}

@@ -1,4 +1,0 @@
-[debug] [oldDeps-test] Classpath dependencies List()
-[debug] [oldDeps-test] Dependencies from configurations List(oldDeps)
-[debug] Bloop wrote the configuration of project 'oldDeps-test' to '/home/meng/workspace/spark/.bloop/oldDeps-test.json'
-[success] Generated .bloop/oldDeps-test.json

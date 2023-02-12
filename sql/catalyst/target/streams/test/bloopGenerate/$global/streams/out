@@ -1,4 +1,0 @@
-[debug] [catalyst-test] Classpath dependencies List(core, core-test, tags, tags-test, unsafe, sketch)
-[debug] [catalyst-test] Dependencies from configurations List(catalyst)
-[debug] Bloop wrote the configuration of project 'catalyst-test' to '/home/meng/workspace/spark/.bloop/catalyst-test.json'
-[success] Generated .bloop/catalyst-test.json

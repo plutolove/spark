@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="5.0">
- <file name="/home/meng/workspace/spark/sql/core/src/main/scala/org/apache/spark/sql/Dataset.scala">
-  <error column="6" line="228" source="org.scalastyle.file.RegexChecker" severity="error" message="Omit braces in case clauses."/>
-  <error column="6" line="234" source="org.scalastyle.file.RegexChecker" severity="error" message="Omit braces in case clauses."/>
- </file>
-</checkstyle>

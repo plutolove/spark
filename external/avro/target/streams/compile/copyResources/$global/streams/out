@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/meng/workspace/spark/external/avro/src/main/resources/META-INF,/home/meng/workspace/spark/external/avro/target/scala-2.12/classes/META-INF)[0m
-[0m[[0mdebug[0m] [0m	(/home/meng/workspace/spark/external/avro/src/main/resources/META-INF/services,/home/meng/workspace/spark/external/avro/target/scala-2.12/classes/META-INF/services)[0m
-[0m[[0mdebug[0m] [0m	(/home/meng/workspace/spark/external/avro/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister,/home/meng/workspace/spark/external/avro/target/scala-2.12/classes/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister)[0m

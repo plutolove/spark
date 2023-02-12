@@ -1,4 +1,0 @@
-[debug] [token-provider-kafka-0-10] Classpath dependencies List(core, tags)
-[debug] [token-provider-kafka-0-10] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'token-provider-kafka-0-10' to '/home/meng/workspace/spark/.bloop/token-provider-kafka-0-10.json'
-[success] Generated .bloop/token-provider-kafka-0-10.json

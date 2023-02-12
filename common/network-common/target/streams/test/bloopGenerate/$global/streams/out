@@ -1,4 +1,0 @@
-[debug] [network-common-test] Classpath dependencies List(tags-test, tags-test)
-[debug] [network-common-test] Dependencies from configurations List(network-common)
-[debug] Bloop wrote the configuration of project 'network-common-test' to '/home/meng/workspace/spark/.bloop/network-common-test.json'
-[success] Generated .bloop/network-common-test.json

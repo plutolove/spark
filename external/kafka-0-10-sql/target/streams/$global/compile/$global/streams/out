@@ -1,9 +1,0 @@
-[0m[[33mwarn[0m] [0m/home/meng/workspace/spark/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/consumer/KafkaDataConsumer.scala:76: method poll in class KafkaConsumer is deprecated: see corresponding Javadoc for more information.[0m
-[0m[[33mwarn[0m] [0m    val p = consumer.poll(pollTimeoutMs)[0m
-[0m[[33mwarn[0m] [0m[0m
-[0m[[33mwarn[0m] [0m/home/meng/workspace/spark/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaOffsetReader.scala:139: method poll in trait Consumer is deprecated: see corresponding Javadoc for more information.[0m
-[0m[[33mwarn[0m] [0m    consumer.poll(0)[0m
-[0m[[33mwarn[0m] [0m[0m
-[0m[[33mwarn[0m] [0m/home/meng/workspace/spark/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaOffsetReader.scala:538: method poll in trait Consumer is deprecated: see corresponding Javadoc for more information.[0m
-[0m[[33mwarn[0m] [0m      consumer.poll(0)[0m
-[0m[[33mwarn[0m] [0m[0m

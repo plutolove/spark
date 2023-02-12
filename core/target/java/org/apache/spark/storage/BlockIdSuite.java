@@ -1,8 +1,0 @@
-package org.apache.spark.storage;
-public  class BlockIdSuite extends org.apache.spark.SparkFunSuite {
-  // not preceding
-  public   BlockIdSuite ()  { throw new RuntimeException(); }
-  public  void assertDifferent (org.apache.spark.storage.BlockId id1, org.apache.spark.storage.BlockId id2)  { throw new RuntimeException(); }
-  // not preceding
-  public  void assertSame (org.apache.spark.storage.BlockId id1, org.apache.spark.storage.BlockId id2)  { throw new RuntimeException(); }
-}

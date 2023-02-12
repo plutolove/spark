@@ -1,4 +1,0 @@
-[debug] [mllib-test] Classpath dependencies List(core, core-test, streaming, sql, catalyst-test, sql-test, graphx, mllib-local, mllib-local-test, streaming-test, tags, tags-test)
-[debug] [mllib-test] Dependencies from configurations List(mllib)
-[debug] Bloop wrote the configuration of project 'mllib-test' to '/home/meng/workspace/spark/.bloop/mllib-test.json'
-[success] Generated .bloop/mllib-test.json

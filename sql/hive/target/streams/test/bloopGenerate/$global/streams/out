@@ -1,4 +1,0 @@
-[debug] [hive-test] Classpath dependencies List(core, core-test, sql, sql-test, catalyst-test, tags-test)
-[debug] [hive-test] Dependencies from configurations List(hive)
-[debug] Bloop wrote the configuration of project 'hive-test' to '/home/meng/workspace/spark/.bloop/hive-test.json'
-[success] Generated .bloop/hive-test.json

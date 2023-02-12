@@ -1,4 +1,0 @@
-[debug] [avro] Classpath dependencies List(sql, tags)
-[debug] [avro] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'avro' to '/home/meng/workspace/spark/.bloop/avro.json'
-[success] Generated .bloop/avro.json

@@ -1,4 +1,0 @@
-[debug] [mllib-local-test] Classpath dependencies List(tags, tags-test)
-[debug] [mllib-local-test] Dependencies from configurations List(mllib-local)
-[debug] Bloop wrote the configuration of project 'mllib-local-test' to '/home/meng/workspace/spark/.bloop/mllib-local-test.json'
-[success] Generated .bloop/mllib-local-test.json

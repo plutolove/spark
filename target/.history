@@ -1,5 +1,0 @@
-project examples
-exit
-project sql
-runMain org.apache.spark.examples.sql.SparkSQLExample
-project sql

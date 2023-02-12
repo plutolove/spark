@@ -1,4 +1,0 @@
-[debug] [mllib] Classpath dependencies List(core, streaming, sql, graphx, mllib-local, tags)
-[debug] [mllib] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'mllib' to '/home/meng/workspace/spark/.bloop/mllib.json'
-[success] Generated .bloop/mllib.json

@@ -1,4 +1,0 @@
-[debug] [network-shuffle-test] Classpath dependencies List(network-common, network-common-test, tags-test, tags-test)
-[debug] [network-shuffle-test] Dependencies from configurations List(network-shuffle)
-[debug] Bloop wrote the configuration of project 'network-shuffle-test' to '/home/meng/workspace/spark/.bloop/network-shuffle-test.json'
-[success] Generated .bloop/network-shuffle-test.json
