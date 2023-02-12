@@ -1,0 +1,4 @@
+[debug] [kvstore-test] Classpath dependencies List(tags, tags-test)
+[debug] [kvstore-test] Dependencies from configurations List(kvstore)
+[debug] Bloop wrote the configuration of project 'kvstore-test' to '/home/meng/workspace/spark/.bloop/kvstore-test.json'
+[success] Generated .bloop/kvstore-test.json

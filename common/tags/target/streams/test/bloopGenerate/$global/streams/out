@@ -1,0 +1,4 @@
+[debug] [tags-test] Classpath dependencies List()
+[debug] [tags-test] Dependencies from configurations List(tags)
+[debug] Bloop wrote the configuration of project 'tags-test' to '/home/meng/workspace/spark/.bloop/tags-test.json'
+[success] Generated .bloop/tags-test.json

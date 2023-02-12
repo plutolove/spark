@@ -1,0 +1,4 @@
+[debug] [sketch-test] Classpath dependencies List(tags, tags-test)
+[debug] [sketch-test] Dependencies from configurations List(sketch)
+[debug] Bloop wrote the configuration of project 'sketch-test' to '/home/meng/workspace/spark/.bloop/sketch-test.json'
+[success] Generated .bloop/sketch-test.json

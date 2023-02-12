@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.spark"
+		module="spark-streaming-kafka-0-10-assembly$sources_2.12"
+		revision="3.0.3"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20230211210305"/>
+	<dependencies>
+		<module organisation="org.lz4" name="lz4-java">
+			<revision name="1.7.1" status="release" pubdate="20200118135702" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2736" time="0" location="/home/meng/.ivy2/cache/org.lz4/lz4-java/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="lz4-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64930" time="0" location="/home/meng/.ivy2/cache/org.lz4/lz4-java/srcs/lz4-java-1.7.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.14.6" status="release" pubdate="20190715005023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5183" time="0" location="/home/meng/.ivy2/cache/jline/jline/ivy-2.14.6.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/jline/jline/2.14.6/jline-2.14.6.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.14.6" rev-constraint-default="2.14.6" rev-constraint-dynamic="2.14.6" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110450" time="0" location="/home/meng/.ivy2/cache/jline/jline/srcs/jline-2.14.6-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-mapred">
+			<revision name="1.8.2" status="release" pubdate="20190717075907" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12249" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro-mapred/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="avro-mapred" type="jar" ext="jar" extra-classifier="hadoop2" status="no" details="" size="187052" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.8.2-hadoop2.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.12.0" status="release" pubdate="20190716001044" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4398" time="0" location="/home/meng/.ivy2/cache/xerces/xercesImpl/ivy-2.12.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2113705" time="0" location="/home/meng/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.12.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20190716001107" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3258" time="0" location="/home/meng/.ivy2/cache/xml-apis/xml-apis/ivy-1.4.01.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="656529" time="0" location="/home/meng/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20190724132903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3904" time="0" location="/home/meng/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1170076" time="0" location="/home/meng/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20190714225940" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/home/meng/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/home/meng/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo.huaweicloud.com/repository/maven/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.30" status="release" pubdate="20191217060357" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="24">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5639" time="0" location="/home/meng/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.30.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13939" time="0" location="/home/meng/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.7.30-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.30" status="release" pubdate="20191217060354" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="41">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5347" time="0" location="/home/meng/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.30.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58727" time="0" location="/home/meng/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.30-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-ipc">
+			<revision name="1.8.2" status="release" pubdate="20190717074901" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12467" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro-ipc/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="avro-ipc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="148578" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro-ipc/srcs/avro-ipc-1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo.huaweicloud.com/repository/maven/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.14" status="release" pubdate="20191107112251" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13488" time="0" location="/home/meng/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.14.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.4.14" rev-constraint-default="3.4.14" rev-constraint-dynamic="3.4.14" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="611337" time="0" location="/home/meng/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.14-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.6.Final" status="release" pubdate="20190718081609" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7197" time="0" location="/home/meng/.ivy2/cache/io.netty/netty/ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1132389" time="0" location="/home/meng/.ivy2/cache/io.netty/netty/srcs/netty-3.10.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.yetus" name="audience-annotations">
+			<revision name="0.5.0" status="release" pubdate="20190719011640" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4808" time="0" location="/home/meng/.ivy2/cache/org.apache.yetus/audience-annotations/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="audience-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14325" time="0" location="/home/meng/.ivy2/cache/org.apache.yetus/audience-annotations/srcs/audience-annotations-0.5.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.8.2" status="release" pubdate="20201129035648" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3915" time="0" location="/home/meng/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.1.8.2" rev-constraint-default="1.1.8.2" rev-constraint-dynamic="1.1.8.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1961092" time="0" location="/home/meng/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.spotbugs" name="spotbugs-annotations">
+			<revision name="3.1.9" status="release" pubdate="20190730140622" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://spotbugs.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1" url="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html"/>
+				<metadata-artifact status="no" details="" size="2744" time="0" location="/home/meng/.ivy2/cache/com.github.spotbugs/spotbugs-annotations/ivy-3.1.9.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.1.9" rev-constraint-default="3.1.9" rev-constraint-dynamic="3.1.9" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="spotbugs-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24185" time="0" location="/home/meng/.ivy2/cache/com.github.spotbugs/spotbugs-annotations/srcs/spotbugs-annotations-3.1.9-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20210419223448" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="/home/meng/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://mirrors.huaweicloud.com/repository/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18102" time="0" location="/home/meng/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo.huaweicloud.com/repository/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-client">
+			<revision name="2.7.4" status="release" pubdate="20190718013226" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="41792" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-client/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24051" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-client/srcs/hadoop-client-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
+			<revision name="2.7.4" status="release" pubdate="20190718085453" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="39789" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-jobclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46349" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/srcs/hadoop-mapreduce-client-jobclient-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
+			<revision name="2.7.4" status="release" pubdate="20190718074913" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="39168" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="319270" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/srcs/hadoop-mapreduce-client-app-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
+			<revision name="2.7.4" status="release" pubdate="20190718092149" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37923" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-shuffle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43874" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/srcs/hadoop-mapreduce-client-shuffle-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
+			<revision name="2.7.4" status="release" pubdate="20190718154847" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="41416" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-nodemanager" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="377487" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/srcs/hadoop-yarn-server-nodemanager-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jettison" name="jettison">
+			<revision name="1.1" status="release" pubdate="20190719202813" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="no" details="" size="2871" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jettison/jettison/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jettison" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63298" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jettison/jettison/srcs/jettison-1.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
+			<revision name="2.7.4" status="release" pubdate="20190718080154" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37905" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="285753" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/srcs/hadoop-mapreduce-client-common-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
+			<revision name="2.7.4" status="release" pubdate="20190718081439" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37562" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1087302" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/srcs/hadoop-mapreduce-client-core-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
+			<revision name="2.7.4" status="release" pubdate="20190718124641" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37773" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113398" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/srcs/hadoop-yarn-client-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
+			<revision name="2.7.4" status="release" pubdate="20190718153540" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="38871" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="178871" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/srcs/hadoop-yarn-server-common-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-hdfs">
+			<revision name="2.7.4" status="release" pubdate="20190718035926" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="41237" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-hdfs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2979730" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/srcs/hadoop-hdfs-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.23.Final" status="release" pubdate="20190718134214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="14108" time="0" location="/home/meng/.ivy2/cache/io.netty/netty-all/ivy-4.0.23.Final.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="4.0.23.Final" rev-constraint-default="4.0.23.Final" rev-constraint-dynamic="4.0.23.Final" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1442971" time="0" location="/home/meng/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.0.23.Final-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.8.2" status="release" pubdate="20190717073033" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12076" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="300643" time="0" location="/home/meng/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20190727004512" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/home/meng/.ivy2/cache/org.tukaani/xz/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="/home/meng/.ivy2/cache/org.tukaani/xz/srcs/xz-1.5-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.7" status="release" pubdate="20190730022413" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4248" time="0" location="/home/meng/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27052" time="0" location="/home/meng/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.7-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.10" status="release" pubdate="20191107123523" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.10/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2662" time="0" location="/home/meng/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.10.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="3.0.3" extra-info.apiURL="https://www.scala-lang.org/api/2.12.10/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1027173" time="0" location="/home/meng/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.10-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
+			<revision name="2.7.4" status="release" pubdate="20190718143125" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="39391" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="853149" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/srcs/hadoop-yarn-common-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="3.0" status="release" pubdate="20190724122225" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4238" time="0" location="/home/meng/.ivy2/cache/com.google.inject/guice/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/google/inject/guice/3.0/guice-3.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="339281" time="0" location="/home/meng/.ivy2/cache/com.google.inject/guice/srcs/guice-3.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/google/inject/guice/3.0/guice-3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu.inject" name="cglib">
+			<revision name="2.2.1-v20090111" status="release" pubdate="20190726133815" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/cglib/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3926" time="0" location="/home/meng/.ivy2/cache/org.sonatype.sisu.inject/cglib/ivy-2.2.1-v20090111.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.2.1-v20090111" rev-constraint-default="2.2.1-v20090111" rev-constraint-dynamic="2.2.1-v20090111" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="cglib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175554" time="0" location="/home/meng/.ivy2/cache/org.sonatype.sisu.inject/cglib/srcs/cglib-2.2.1-v20090111-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20190714224752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2417" time="0" location="/home/meng/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/home/meng/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20190714233323" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/meng/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/meng/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-xc">
+			<revision name="1.9.13" status="release" pubdate="20190720031615" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3073" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-xc/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jackson-xc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15831" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-xc/srcs/jackson-xc-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-jaxrs">
+			<revision name="1.9.13" status="release" pubdate="20190720032915" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3075" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jackson-jaxrs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11913" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/srcs/jackson-jaxrs-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.2.2" status="release" pubdate="20190715072845" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jaxb.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="CDDL 1.1" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2997" time="0" location="/home/meng/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="182496" time="0" location="/home/meng/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.2.2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20190714225012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2844" time="0" location="/home/meng/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63338" time="0" location="/home/meng/.ivy2/cache/javax.activation/activation/srcs/activation-1.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api">
+			<revision name="1.0-2" status="release" pubdate="20190715083731" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/meng/.ivy2/cache/javax.xml.stream/stax-api/ivy-1.0-2.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="stax-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42699" time="0" location="/home/meng/.ivy2/cache/javax.xml.stream/stax-api/srcs/stax-api-1.0-2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
+			<revision name="2.7.4" status="release" pubdate="20190718132621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="34902" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="650547" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/srcs/hadoop-yarn-api-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="2.7.4" status="release" pubdate="20190718014509" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="43366" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-common/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2099488" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-common/srcs/hadoop-common-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20210419224052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8141" time="0" location="/home/meng/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.huaweicloud.com/repository/maven/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264972" time="0" location="/home/meng/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.htrace" name="htrace-core">
+			<revision name="3.1.0-incubating" status="release" pubdate="20190717161813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://incubator.apache.org/projects/htrace.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5150" time="0" location="/home/meng/.ivy2/cache/org.apache.htrace/htrace-core/ivy-3.1.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.1.0-incubating" rev-constraint-default="3.1.0-incubating" rev-constraint-dynamic="3.1.0-incubating" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="htrace-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37546" time="0" location="/home/meng/.ivy2/cache/org.apache.htrace/htrace-core/srcs/htrace-core-3.1.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-recipes">
+			<revision name="2.7.1" status="release" pubdate="20190717113922" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13987" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-recipes/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="curator-recipes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="154195" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-recipes/srcs/curator-recipes-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-auth">
+			<revision name="2.7.4" status="release" pubdate="20190717224212" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="35997" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-auth/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="78676" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-auth/srcs/hadoop-auth-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-framework">
+			<revision name="2.7.1" status="release" pubdate="20190717113021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13835" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-framework/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118723" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-framework/srcs/curator-framework-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-client">
+			<revision name="2.7.1" status="release" pubdate="20190717111321" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13882" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-client/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="curator-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53722" time="0" location="/home/meng/.ivy2/cache/org.apache.curator/curator-client/srcs/curator-client-2.7.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.directory.server" name="apacheds-kerberos-codec">
+			<revision name="2.0.0-M15" status="release" pubdate="20190717221859" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="26789" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/ivy-2.0.0-M15.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.0.0-M15" rev-constraint-default="2.0.0-M15" rev-constraint-dynamic="2.0.0-M15" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="apacheds-kerberos-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="726316" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.server/apacheds-kerberos-codec/srcs/apacheds-kerberos-codec-2.0.0-M15-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.directory.api" name="api-util">
+			<revision name="1.0.0-M20" status="release" pubdate="20190717170348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14221" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.api/api-util/ivy-1.0.0-M20.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.0.0-M20" rev-constraint-default="1.0.0-M20" rev-constraint-dynamic="1.0.0-M20" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="api-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="78219" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.api/api-util/srcs/api-util-1.0.0-M20-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.directory.api" name="api-asn1-api">
+			<revision name="1.0.0-M20" status="release" pubdate="20190717114153" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="15565" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.api/api-asn1-api/ivy-1.0.0-M20.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.0.0-M20" rev-constraint-default="1.0.0-M20" rev-constraint-dynamic="1.0.0-M20" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="api-asn1-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21097" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.api/api-asn1-api/srcs/api-asn1-api-1.0.0-M20-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.directory.server" name="apacheds-i18n">
+			<revision name="2.0.0-M15" status="release" pubdate="20190717175959" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="25493" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.server/apacheds-i18n/ivy-2.0.0-M15.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.0.0-M15" rev-constraint-default="2.0.0-M15" rev-constraint-dynamic="2.0.0-M15" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="apacheds-i18n" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27976" time="0" location="/home/meng/.ivy2/cache/org.apache.directory.server/apacheds-i18n/srcs/apacheds-i18n-2.0.0-M15-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.2.5" status="release" pubdate="20190717215636" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="8539" time="0" location="/home/meng/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="524878" time="0" location="/home/meng/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.2.5-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.2.4" status="release" pubdate="20190717234020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="6556" time="0" location="/home/meng/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="4.2.4" rev-constraint-default="4.2.4" rev-constraint-dynamic="4.2.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="325247" time="0" location="/home/meng/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.2.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.2.4" status="release" pubdate="20190724121736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3381" time="0" location="/home/meng/.ivy2/cache/com.google.code.gson/gson/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="127562" time="0" location="/home/meng/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.2.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20190724150405" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="26">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="/home/meng/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/home/meng/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20210419224014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2787" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo.huaweicloud.com/repository/maven/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo.huaweicloud.com/repository/maven/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20210419224014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo.huaweicloud.com/repository/maven/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/home/meng/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20190715000437" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5804" time="0" location="/home/meng/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316787" time="0" location="/home/meng/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="1.8" status="release" pubdate="20190714231444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/digester/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3351" time="0" location="/home/meng/.ivy2/cache/commons-digester/commons-digester/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-digester" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="203671" time="0" location="/home/meng/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.7.0" status="release" pubdate="20190714234910" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="2520" time="0" location="/home/meng/.ivy2/cache/commons-beanutils/commons-beanutils/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="/home/meng/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20210419224010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6637" time="0" location="/home/meng/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.huaweicloud.com/repository/maven/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/home/meng/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20190714232646" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/meng/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/home/meng/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet.jsp" name="jsp-api">
+			<revision name="2.1" status="release" pubdate="20190715035652" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="2316" time="0" location="/home/meng/.ivy2/cache/javax.servlet.jsp/jsp-api/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jsp-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="208969" time="0" location="/home/meng/.ivy2/cache/javax.servlet.jsp/jsp-api/srcs/jsp-api-2.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-sslengine">
+			<revision name="6.1.26" status="release" pubdate="20190724152447" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jetty.mortbay.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache License Version 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6548" time="0" location="/home/meng/.ivy2/cache/org.mortbay.jetty/jetty-sslengine/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jetty-sslengine" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10974" time="0" location="/home/meng/.ivy2/cache/org.mortbay.jetty/jetty-sslengine/srcs/jetty-sslengine-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20190724175045" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="6784" time="0" location="/home/meng/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="/home/meng/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20210419224008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11113" time="0" location="/home/meng/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://mirrors.huaweicloud.com/repository/maven/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="646075" time="0" location="/home/meng/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-net" name="commons-net">
+			<revision name="3.1" status="release" pubdate="20190714235301" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8062" time="0" location="/home/meng/.ivy2/cache/commons-net/commons-net/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-net" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="406713" time="0" location="/home/meng/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20190714235215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8704" time="0" location="/home/meng/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/home/meng/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20190715025040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3297" time="0" location="/home/meng/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="439405" time="0" location="/home/meng/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.1.1" status="release" pubdate="20190717130340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8364" time="0" location="/home/meng/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1908214" time="0" location="/home/meng/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.1.1-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20210419223903" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4697" time="0" location="/home/meng/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.huaweicloud.com/repository/maven/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="/home/meng/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-annotations">
+			<revision name="2.7.4" status="release" pubdate="20190717214507" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="32023" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-annotations/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.pom"/>
+				<caller organisation="org.apache.spark" name="spark-streaming-kafka-0-10-assembly$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="hadoop-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35464" time="0" location="/home/meng/.ivy2/cache/org.apache.hadoop/hadoop-annotations/srcs/hadoop-annotations-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

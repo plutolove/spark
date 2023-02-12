@@ -1,0 +1,199 @@
+{
+    "version" : "1.4.0",
+    "project" : {
+        "name" : "launcher",
+        "directory" : "/home/meng/workspace/spark/launcher",
+        "workspaceDir" : "/home/meng/workspace/spark",
+        "sources" : [
+            "/home/meng/workspace/spark/launcher/src/main/scala-2.12",
+            "/home/meng/workspace/spark/launcher/src/main/scala",
+            "/home/meng/workspace/spark/launcher/src/main/java",
+            "/home/meng/workspace/spark/launcher/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies" : [
+            "tags"
+        ],
+        "classpath" : [
+            "/home/meng/workspace/spark/.bloop/tags/scala-2.12/classes",
+            "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar",
+            "/home/meng/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar",
+            "/home/meng/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar",
+            "/home/meng/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.4.8.jar"
+        ],
+        "out" : "/home/meng/workspace/spark/.bloop/launcher",
+        "classesDir" : "/home/meng/workspace/spark/.bloop/launcher/scala-2.12/classes",
+        "resources" : [
+            "/home/meng/workspace/spark/launcher/src/main/resources",
+            "/home/meng/workspace/spark/launcher/target/scala-2.12/resource_managed/main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.10",
+            "options" : [
+                "-unchecked",
+                "-deprecation",
+                "-feature",
+                "-explaintypes",
+                "-target:jvm-1.8",
+                "-P:genjavadoc:out=/home/meng/workspace/spark/launcher/target/java",
+                "-P:genjavadoc:strictVisibility=true",
+                "-Xplugin:/home/meng/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.12.10/jars/genjavadoc-plugin_2.12.10-0.15.jar",
+                "-target:jvm-1.8",
+                "-sourcepath",
+                "/home/meng/workspace/spark"
+            ],
+            "jars" : [
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/meng/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar",
+                "/home/meng/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.12.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+                "-encoding",
+                "UTF-8",
+                "-source",
+                "1.8",
+                "-target",
+                "1.8",
+                "-Xlint:unchecked"
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-8-openjdk/jre",
+                "options" : [
+                    "-Duser.dir=/home/meng/workspace/spark/launcher",
+                    "-Xmx3g"
+                ]
+            },
+            "mainClass" : [
+            ],
+            "classpath" : [
+            ],
+            "resources" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.10",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.spark-project.spark",
+                    "name" : "unused",
+                    "version" : "1.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "unused",
+                            "path" : "/home/meng/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar"
+                        },
+                        {
+                            "name" : "unused",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.guava",
+                    "name" : "guava",
+                    "version" : "14.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "guava",
+                            "path" : "/home/meng/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar"
+                        },
+                        {
+                            "name" : "guava",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.jpmml",
+                    "name" : "pmml-model",
+                    "version" : "1.4.8",
+                    "artifacts" : [
+                        {
+                            "name" : "pmml-model",
+                            "path" : "/home/meng/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.4.8.jar"
+                        },
+                        {
+                            "name" : "pmml-model",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.jpmml/pmml-model/srcs/pmml-model-1.4.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags" : [
+            "library"
+        ]
+    }
+}

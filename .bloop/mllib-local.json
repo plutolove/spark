@@ -1,0 +1,534 @@
+{
+    "version" : "1.4.0",
+    "project" : {
+        "name" : "mllib-local",
+        "directory" : "/home/meng/workspace/spark/mllib-local",
+        "workspaceDir" : "/home/meng/workspace/spark",
+        "sources" : [
+            "/home/meng/workspace/spark/mllib-local/src/main/scala-2.12",
+            "/home/meng/workspace/spark/mllib-local/src/main/scala",
+            "/home/meng/workspace/spark/mllib-local/src/main/java",
+            "/home/meng/workspace/spark/mllib-local/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies" : [
+            "tags"
+        ],
+        "classpath" : [
+            "/home/meng/workspace/spark/.bloop/tags/scala-2.12/classes",
+            "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar",
+            "/home/meng/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar",
+            "/home/meng/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar",
+            "/home/meng/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.4.8.jar",
+            "/home/meng/.ivy2/cache/org.scalanlp/breeze_2.12/jars/breeze_2.12-1.0.jar",
+            "/home/meng/.ivy2/cache/org.scalanlp/breeze-macros_2.12/jars/breeze-macros_2.12-1.0.jar",
+            "/home/meng/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar",
+            "/home/meng/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar",
+            "/home/meng/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar",
+            "/home/meng/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar",
+            "/home/meng/.ivy2/cache/com.github.wendykierp/JTransforms/jars/JTransforms-3.1.jar",
+            "/home/meng/.ivy2/cache/pl.edu.icm/JLargeArrays/jars/JLargeArrays-1.5.jar",
+            "/home/meng/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar",
+            "/home/meng/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/spire_2.12/jars/spire_2.12-0.17.0-M1.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/spire-macros_2.12/jars/spire-macros_2.12-0.17.0-M1.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.8.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/algebra_2.12/jars/algebra_2.12-2.0.0-M2.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-2.0.0-M4.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/spire-platform_2.12/jars/spire-platform_2.12-0.17.0-M1.jar",
+            "/home/meng/.ivy2/cache/org.typelevel/spire-util_2.12/jars/spire-util_2.12-0.17.0-M1.jar",
+            "/home/meng/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-2.1.1.jar",
+            "/home/meng/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar"
+        ],
+        "out" : "/home/meng/workspace/spark/.bloop/mllib-local",
+        "classesDir" : "/home/meng/workspace/spark/.bloop/mllib-local/scala-2.12/classes",
+        "resources" : [
+            "/home/meng/workspace/spark/mllib-local/src/main/resources",
+            "/home/meng/workspace/spark/mllib-local/target/scala-2.12/resource_managed/main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.10",
+            "options" : [
+                "-unchecked",
+                "-deprecation",
+                "-feature",
+                "-explaintypes",
+                "-target:jvm-1.8",
+                "-P:genjavadoc:out=/home/meng/workspace/spark/mllib-local/target/java",
+                "-P:genjavadoc:strictVisibility=true",
+                "-Xplugin:/home/meng/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.12.10/jars/genjavadoc-plugin_2.12.10-0.15.jar",
+                "-target:jvm-1.8",
+                "-sourcepath",
+                "/home/meng/workspace/spark"
+            ],
+            "jars" : [
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar",
+                "/home/meng/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/meng/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar",
+                "/home/meng/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.12.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+                "-encoding",
+                "UTF-8",
+                "-source",
+                "1.8",
+                "-target",
+                "1.8",
+                "-Xlint:unchecked"
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-8-openjdk/jre",
+                "options" : [
+                    "-Duser.dir=/home/meng/workspace/spark/mllib-local",
+                    "-Xmx3g"
+                ]
+            },
+            "mainClass" : [
+            ],
+            "classpath" : [
+            ],
+            "resources" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.10",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.spark-project.spark",
+                    "name" : "unused",
+                    "version" : "1.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "unused",
+                            "path" : "/home/meng/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar"
+                        },
+                        {
+                            "name" : "unused",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.guava",
+                    "name" : "guava",
+                    "version" : "14.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "guava",
+                            "path" : "/home/meng/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar"
+                        },
+                        {
+                            "name" : "guava",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.jpmml",
+                    "name" : "pmml-model",
+                    "version" : "1.4.8",
+                    "artifacts" : [
+                        {
+                            "name" : "pmml-model",
+                            "path" : "/home/meng/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.4.8.jar"
+                        },
+                        {
+                            "name" : "pmml-model",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.jpmml/pmml-model/srcs/pmml-model-1.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalanlp",
+                    "name" : "breeze_2.12",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "breeze_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.scalanlp/breeze_2.12/jars/breeze_2.12-1.0.jar"
+                        },
+                        {
+                            "name" : "breeze_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scalanlp/breeze_2.12/srcs/breeze_2.12-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalanlp",
+                    "name" : "breeze-macros_2.12",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "breeze-macros_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.scalanlp/breeze-macros_2.12/jars/breeze-macros_2.12-1.0.jar"
+                        },
+                        {
+                            "name" : "breeze-macros_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scalanlp/breeze-macros_2.12/srcs/breeze-macros_2.12-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.12.10",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.fommil.netlib",
+                    "name" : "core",
+                    "version" : "1.1.2",
+                    "artifacts" : [
+                        {
+                            "name" : "core",
+                            "path" : "/home/meng/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar"
+                        },
+                        {
+                            "name" : "core",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.sourceforge.f2j",
+                    "name" : "arpack_combined_all",
+                    "version" : "0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "arpack_combined_all",
+                            "path" : "/home/meng/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.sf.opencsv",
+                    "name" : "opencsv",
+                    "version" : "2.3",
+                    "artifacts" : [
+                        {
+                            "name" : "opencsv",
+                            "path" : "/home/meng/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar"
+                        },
+                        {
+                            "name" : "opencsv",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.wendykierp",
+                    "name" : "JTransforms",
+                    "version" : "3.1",
+                    "artifacts" : [
+                        {
+                            "name" : "JTransforms",
+                            "path" : "/home/meng/.ivy2/cache/com.github.wendykierp/JTransforms/jars/JTransforms-3.1.jar"
+                        },
+                        {
+                            "name" : "JTransforms",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/com.github.wendykierp/JTransforms/srcs/JTransforms-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "pl.edu.icm",
+                    "name" : "JLargeArrays",
+                    "version" : "1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "JLargeArrays",
+                            "path" : "/home/meng/.ivy2/cache/pl.edu.icm/JLargeArrays/jars/JLargeArrays-1.5.jar"
+                        },
+                        {
+                            "name" : "JLargeArrays",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/pl.edu.icm/JLargeArrays/srcs/JLargeArrays-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.chuusai",
+                    "name" : "shapeless_2.12",
+                    "version" : "2.3.3",
+                    "artifacts" : [
+                        {
+                            "name" : "shapeless_2.12",
+                            "path" : "/home/meng/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar"
+                        },
+                        {
+                            "name" : "shapeless_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "macro-compat_2.12",
+                    "version" : "1.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "macro-compat_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar"
+                        },
+                        {
+                            "name" : "macro-compat_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "slf4j-api",
+                    "version" : "1.7.5",
+                    "artifacts" : [
+                        {
+                            "name" : "slf4j-api",
+                            "path" : "/home/meng/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar"
+                        },
+                        {
+                            "name" : "slf4j-api",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "spire_2.12",
+                    "version" : "0.17.0-M1",
+                    "artifacts" : [
+                        {
+                            "name" : "spire_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire_2.12/jars/spire_2.12-0.17.0-M1.jar"
+                        },
+                        {
+                            "name" : "spire_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire_2.12/srcs/spire_2.12-0.17.0-M1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "spire-macros_2.12",
+                    "version" : "0.17.0-M1",
+                    "artifacts" : [
+                        {
+                            "name" : "spire-macros_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-macros_2.12/jars/spire-macros_2.12-0.17.0-M1.jar"
+                        },
+                        {
+                            "name" : "spire-macros_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-macros_2.12/srcs/spire-macros_2.12-0.17.0-M1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "machinist_2.12",
+                    "version" : "0.6.8",
+                    "artifacts" : [
+                        {
+                            "name" : "machinist_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.8.jar"
+                        },
+                        {
+                            "name" : "machinist_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/machinist_2.12/srcs/machinist_2.12-0.6.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "algebra_2.12",
+                    "version" : "2.0.0-M2",
+                    "artifacts" : [
+                        {
+                            "name" : "algebra_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/algebra_2.12/jars/algebra_2.12-2.0.0-M2.jar"
+                        },
+                        {
+                            "name" : "algebra_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/algebra_2.12/srcs/algebra_2.12-2.0.0-M2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-kernel_2.12",
+                    "version" : "2.0.0-M4",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-kernel_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-2.0.0-M4.jar"
+                        },
+                        {
+                            "name" : "cats-kernel_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-2.0.0-M4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "spire-platform_2.12",
+                    "version" : "0.17.0-M1",
+                    "artifacts" : [
+                        {
+                            "name" : "spire-platform_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-platform_2.12/jars/spire-platform_2.12-0.17.0-M1.jar"
+                        },
+                        {
+                            "name" : "spire-platform_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-platform_2.12/srcs/spire-platform_2.12-0.17.0-M1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "spire-util_2.12",
+                    "version" : "0.17.0-M1",
+                    "artifacts" : [
+                        {
+                            "name" : "spire-util_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-util_2.12/jars/spire-util_2.12-0.17.0-M1.jar"
+                        },
+                        {
+                            "name" : "spire-util_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.typelevel/spire-util_2.12/srcs/spire-util_2.12-0.17.0-M1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-collection-compat_2.12",
+                    "version" : "2.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-collection-compat_2.12",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name" : "scala-collection-compat_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/srcs/scala-collection-compat_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-math3",
+                    "version" : "3.4.1",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-math3",
+                            "path" : "/home/meng/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar"
+                        },
+                        {
+                            "name" : "commons-math3",
+                            "classifier" : "sources",
+                            "path" : "/home/meng/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.4.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags" : [
+            "library"
+        ]
+    }
+}

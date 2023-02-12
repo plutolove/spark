@@ -1,0 +1,4 @@
+[debug] [sql-kafka-0-10-test] Classpath dependencies List(token-provider-kafka-0-10, sql, token-provider-kafka-0-10-test, core-test, catalyst-test, sql-test, tags, tags-test)
+[debug] [sql-kafka-0-10-test] Dependencies from configurations List(sql-kafka-0-10)
+[debug] Bloop wrote the configuration of project 'sql-kafka-0-10-test' to '/home/meng/workspace/spark/.bloop/sql-kafka-0-10-test.json'
+[success] Generated .bloop/sql-kafka-0-10-test.json

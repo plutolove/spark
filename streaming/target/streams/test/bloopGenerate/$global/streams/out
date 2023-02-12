@@ -1,0 +1,4 @@
+[debug] [streaming-test] Classpath dependencies List(core, core-test, tags, tags-test)
+[debug] [streaming-test] Dependencies from configurations List(streaming)
+[debug] Bloop wrote the configuration of project 'streaming-test' to '/home/meng/workspace/spark/.bloop/streaming-test.json'
+[success] Generated .bloop/streaming-test.json

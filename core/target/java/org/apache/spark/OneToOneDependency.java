@@ -1,0 +1,12 @@
+package org.apache.spark;
+/**
+ * :: DeveloperApi ::
+ * Represents a one-to-one dependency between partitions of the parent and child RDDs.
+ */
+public  class OneToOneDependency<T extends java.lang.Object> extends org.apache.spark.NarrowDependency<T> {
+  // not preceding
+  // TypeTree().setOriginal(TypeBoundsTree(TypeTree(), TypeTree()))
+  public   OneToOneDependency (org.apache.spark.rdd.RDD<T> rdd)  { throw new RuntimeException(); }
+  // not preceding
+  public  scala.collection.immutable.List<java.lang.Object> getParents (int partitionId)  { throw new RuntimeException(); }
+}

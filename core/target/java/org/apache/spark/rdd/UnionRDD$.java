@@ -1,0 +1,11 @@
+package org.apache.spark.rdd;
+// not preceding
+public  class UnionRDD$ implements scala.Serializable {
+  /**
+   * Static reference to the singleton instance of this Scala object.
+   */
+  public static final UnionRDD$ MODULE$ = null;
+  public   UnionRDD$ ()  { throw new RuntimeException(); }
+  // not preceding
+    scala.collection.parallel.ForkJoinTaskSupport partitionEvalTaskSupport ()  { throw new RuntimeException(); }
+}

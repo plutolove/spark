@@ -1,0 +1,4 @@
+[debug] [streaming-kafka-0-10-assembly-test] Classpath dependencies List(streaming-kafka-0-10, streaming)
+[debug] [streaming-kafka-0-10-assembly-test] Dependencies from configurations List(streaming-kafka-0-10-assembly)
+[debug] Bloop wrote the configuration of project 'streaming-kafka-0-10-assembly-test' to '/home/meng/workspace/spark/.bloop/streaming-kafka-0-10-assembly-test.json'
+[success] Generated .bloop/streaming-kafka-0-10-assembly-test.json

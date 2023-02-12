@@ -1,0 +1,4 @@
+[debug] [catalyst] Classpath dependencies List(core, tags, unsafe, sketch)
+[debug] [catalyst] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'catalyst' to '/home/meng/workspace/spark/.bloop/catalyst.json'
+[success] Generated .bloop/catalyst.json

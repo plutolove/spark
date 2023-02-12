@@ -1,0 +1,4 @@
+[debug] [graphx] Classpath dependencies List(core, mllib-local, tags)
+[debug] [graphx] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'graphx' to '/home/meng/workspace/spark/.bloop/graphx.json'
+[success] Generated .bloop/graphx.json

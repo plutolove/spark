@@ -1,0 +1,4 @@
+[debug] [unsafe-test] Classpath dependencies List(tags, tags-test)
+[debug] [unsafe-test] Dependencies from configurations List(unsafe)
+[debug] Bloop wrote the configuration of project 'unsafe-test' to '/home/meng/workspace/spark/.bloop/unsafe-test.json'
+[success] Generated .bloop/unsafe-test.json

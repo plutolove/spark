@@ -1,0 +1,4 @@
+[debug] [repl-test] Classpath dependencies List(core, core-test, mllib, sql, tags, tags-test)
+[debug] [repl-test] Dependencies from configurations List(repl)
+[debug] Bloop wrote the configuration of project 'repl-test' to '/home/meng/workspace/spark/.bloop/repl-test.json'
+[success] Generated .bloop/repl-test.json

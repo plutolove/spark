@@ -1,0 +1,4 @@
+[debug] [assembly] Classpath dependencies List(core, mllib, streaming, graphx, sql, repl)
+[debug] [assembly] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'assembly' to '/home/meng/workspace/spark/.bloop/assembly.json'
+[success] Generated .bloop/assembly.json

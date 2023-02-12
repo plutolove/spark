@@ -1,0 +1,11 @@
+package org.apache.spark.sql.connector;
+public  class DummyWriteOnlyFileDataSourceV2 implements org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2 {
+  // not preceding
+  public   DummyWriteOnlyFileDataSourceV2 ()  { throw new RuntimeException(); }
+  // not preceding
+  public  java.lang.Class<? extends org.apache.spark.sql.execution.datasources.FileFormat> fallbackFileFormat ()  { throw new RuntimeException(); }
+  public  org.apache.spark.sql.connector.catalog.Table getTable (org.apache.spark.sql.util.CaseInsensitiveStringMap options)  { throw new RuntimeException(); }
+  public  java.lang.String shortName ()  { throw new RuntimeException(); }
+  // not preceding
+  public  org.apache.spark.sql.SparkSession sparkSession ()  { throw new RuntimeException(); }
+}

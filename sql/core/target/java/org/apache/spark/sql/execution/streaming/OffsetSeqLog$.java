@@ -1,0 +1,11 @@
+package org.apache.spark.sql.execution.streaming;
+// not preceding
+public  class OffsetSeqLog$ {
+  /**
+   * Static reference to the singleton instance of this Scala object.
+   */
+  public static final OffsetSeqLog$ MODULE$ = null;
+  public   OffsetSeqLog$ ()  { throw new RuntimeException(); }
+  // not preceding
+    int VERSION ()  { throw new RuntimeException(); }
+}

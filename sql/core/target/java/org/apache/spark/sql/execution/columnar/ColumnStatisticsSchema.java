@@ -1,0 +1,12 @@
+package org.apache.spark.sql.execution.columnar;
+  class ColumnStatisticsSchema implements scala.Serializable {
+  // not preceding
+  public   ColumnStatisticsSchema (org.apache.spark.sql.catalyst.expressions.Attribute a)  { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.expressions.AttributeReference count ()  { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.expressions.AttributeReference lowerBound ()  { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.expressions.AttributeReference nullCount ()  { throw new RuntimeException(); }
+  public  scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.AttributeReference> schema ()  { throw new RuntimeException(); }
+  public  org.apache.spark.sql.catalyst.expressions.AttributeReference sizeInBytes ()  { throw new RuntimeException(); }
+  // not preceding
+  public  org.apache.spark.sql.catalyst.expressions.AttributeReference upperBound ()  { throw new RuntimeException(); }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.spark"
+		module="spark-hive_2.12"
+		revision="3.0.3"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20230211210150"/>
+	<dependencies>
+		<module organisation="com.twitter" name="parquet-hadoop-bundle">
+			<revision name="1.6.0" status="release" pubdate="20190730114135" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.incubator.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6465" time="0" location="/home/meng/.ivy2/cache/com.twitter/parquet-hadoop-bundle/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://maven-central.storage-download.googleapis.com/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.pom"/>
+				<caller organisation="org.apache.spark" name="spark-hive_2.12" conf="provided" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="3.0.3"/>
+				<artifacts>
+					<artifact name="parquet-hadoop-bundle" type="jar" ext="jar" status="no" details="" size="2796935" time="0" location="/home/meng/.ivy2/cache/com.twitter/parquet-hadoop-bundle/jars/parquet-hadoop-bundle-1.6.0.jar">
+						<origin-location is-local="false" location="https://maven-central.storage-download.googleapis.com/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

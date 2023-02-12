@@ -1,0 +1,4 @@
+[debug] [sql] Classpath dependencies List(sketch, core, catalyst, tags)
+[debug] [sql] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'sql' to '/home/meng/workspace/spark/.bloop/sql.json'
+[success] Generated .bloop/sql.json
